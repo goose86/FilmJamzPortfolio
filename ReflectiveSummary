@@ -1,0 +1,15 @@
+Film Jamz is predicitive analytics model where potentail fil investors, producers, directors, etc. 
+can input different types of film informationa and the model will predict how well the movie will 
+do with audiences. We used a chosen algorithm, 5 different plots to show our data, and we presented 
+it in front of our peers.
+For our desired algorithm, random forest regression, we preprocessed our data which contains 6820 
+records. We used 10 predictor variables to decide what is the best feature when predicting how well 
+a movie will do. The variables are company, country, director, genre, gross revenue, name, rating, 
+runtime, score and votes. After completing the preprocessing, we applied random forest regression
+algorithm, which is one of the most effective machine learning models for predictive analytics. 
+The random forest regression algorithm is a classification algorithm. What it does is create a 
+forest with several trees. The more trees, the more robust it will be. In the same way in the random 
+forest classifier, the higher the number of trees, the higher the accuracy results. Once we ran the 
+algorithm, it was revealed that rating was the best feature when deciding how well a movie will perform. 
+We then proceeded to graph our data where it showed rating as having a remarkable weight advantage versus 
+its counterparts.
